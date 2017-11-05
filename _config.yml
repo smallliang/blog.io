@@ -1,13 +1,13 @@
 # Site settings
 title:  小屋 # 你的博客名字，可以定义修订
-header-img: "img/green.jpg"
-tagline: "cn"  
+header-img: "green.jpg"
+tagline: "cn"
 description: "这是我的博客"  # 一句话描述你的博客
 baseurl: ""
 url: "smallliang.com"  # 此处填写你的博客地址
 
 # About/contact
-owner: 
+owner:
   name: "韩家辉" # 填写作者信息：名字
   email: gafei_han@163.com # 填写作者信息：邮箱
   bio: "博客建造中……" # 填写作者信息：博客描述
@@ -17,15 +17,15 @@ gavatar: http://openmindclub.qiniudn.com/omt/favicon.png # 浏览器地址栏小
 favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
 
 douban_username:  # 你的豆瓣id
-twitter_username: 
-github_username: 
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+twitter_username:
+github_username:
+facebook_username:
+weibo_username:
+zhihu_username:
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
+# Build settings
+# use Github Flavored Markdown !important
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
@@ -38,7 +38,7 @@ timezone: Asia/Shanghai
 # Defaults for posts
 defaults:
   -
-    scope: 
+    scope:
       path: ""
       type: "posts"
     values:
@@ -46,7 +46,7 @@ defaults:
       author: "韩家辉" # 你的名字
       header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments 
+# Comments
 comments :
   provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
   duoshuo :

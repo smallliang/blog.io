@@ -1,13 +1,7 @@
 ---
 layout: page
 title: "milestone"
-header-img: "img/zhihu.jpg"
+header-img: "zhihu.jpg"
 ---
 
 。。。
-
-
-
-
-
-
