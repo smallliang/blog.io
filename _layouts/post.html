@@ -20,7 +20,7 @@ layout: default
                     <span class="Tags">
                       标签：
                         {% for tag in page.tags %}
-                        <a class="tag" href="/Tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+                        <a class="tag" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </span>
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
@@ -143,6 +143,15 @@ var duoshuoQuery = {short_name:"cnfeat"};
         };
         anchors.add().remove('.intro-header h1').remove('.subheading');
     })
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109514293-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109514293-1');
 </script>
 <style>
     /* place left on bigger screen */
