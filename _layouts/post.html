@@ -18,6 +18,7 @@ layout: default
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
                     <h3 class="Tags">
+                      标签：
                         {% for tag in page.tags %}
                         <a class="tag" href="/Tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
