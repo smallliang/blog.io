@@ -1,63 +1,70 @@
-# Site settings
-title:  小屋 # 你的博客名字，可以定义修订
-header-img: "green.jpg"
-tagline: "cn"
-description: "这是我的博客"  # 一句话描述你的博客
-baseurl: ""
-url: "smallliang.com"  # 此处填写你的博客地址
+# Basic
+title: 潘柏信
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: leopardpan
+# 头像里面的描述
+avatarDesc: iOS / 机器学习
+url: "http://baixin.io"
 
-# About/contact
-owner:
-  name: "韩家辉" # 填写作者信息：名字
-  email: gafei_han@163.com # 填写作者信息：邮箱
-  bio: "博客建造中……" # 填写作者信息：博客描述
+# Comment
+comment:
+    disqus: leopard
+    # uyan: 2143225  # 有言id,登录有言官网申请
 
-# Data
-gavatar: http://openmindclub.qiniudn.com/omt/favicon.png # 浏览器地址栏小图标，可自定义更改
-favicon: img/favicon.png # 浏览器地址栏小图标，可自定义更改
+# Social
+social:
+    weibo: 5366874726 
+    github: leopardpan
+    # twitter: 
+    mail: leopardpan@icloud.com
 
-douban_username:  # 你的豆瓣id
-twitter_username:
-github_username:
-facebook_username:
-weibo_username:
-zhihu_username:
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 8ba1c6be0953b6f9c2ba38e57f615421  
 
-# Build settings
-# use Github Flavored Markdown !important
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-84134159-3   
+    host: auto  
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
 highlighter: rouge
-permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+textColor: #FF0000
 
-# Defaults for posts
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "韩家辉" # 你的名字
-      header-img: "black.jpg" # We don't want posts without a header image, that whould mean white on white
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
 
-# Comments
-comments :
-  provider : disqus # 使用 disqus 评论模块，读者翻墙才能看见
-  duoshuo :
-    short_name :  # 填写你的 disqus id
-  disqus :
-      short_name :  # 填写你的 disqus id
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-109514293-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
 
-# Links to include in footer navigation
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
