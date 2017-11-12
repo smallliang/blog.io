@@ -10,15 +10,15 @@ url: "http://smallliang.com"
 
 # Comment
 comment:
-    disqus: leopard
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    # disqus: leopard
+    uyan: 2148749  # 有言id,登录有言官网申请
 
 # Social
 social:
     weibo: 5416138446
     github: smallliang
     # twitter:
-    mail: gafei_han@163.com
+    # mail: gafei_han@163.com
 
 # 百度统计
 # 使用博客模板请去掉或者更换 id
