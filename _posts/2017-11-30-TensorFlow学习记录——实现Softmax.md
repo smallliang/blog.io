@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TensorFlow学习——实现Softmax识别手写数字
+title: LeetCode学习笔记——Array（一）
 date: 2017-11-30
 categories: blog
 tags: [Machine learning][TensorFlow]
