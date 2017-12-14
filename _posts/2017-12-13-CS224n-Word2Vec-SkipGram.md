@@ -3,7 +3,7 @@ layout: post
 title: CSS224n之Wrod2Vec理解SkipGram
 date: 2017-12-13
 categories: blog
-tags: [NLP][CS224n]
+tags: [NLP]
 author: gafei
 ---
 
