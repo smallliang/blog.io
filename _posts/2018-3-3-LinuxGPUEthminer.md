@@ -25,9 +25,9 @@ ImToken是一个用于管理以太坊货币的数字钱包。[下载地址](http
 
 安全备份：
 
-+ 备份__助记词__
++ 备份助记词
 
-助记词是用于找回密码的唯一方法！因此必须妥善保管，一旦助记词泄露, 由于区块链具有匿名性, 哪怕是你认为身边最亲近的人盗取, 也无从得知, 而且一旦被盗, 资产将无法追回！
+助记词是是一串随机生成的多个单词组合，用于找回密码的唯一方法！因此必须妥善保管，__一旦助记词泄露, 由于区块链具有匿名性, 哪怕是你认为身边最亲近的人盗取, 也无从得知, 而且一旦被盗, 资产将无法追回！__
 
 ![](http://oyvmbp6uy.bkt.clouddn.com/20180303_1.png)
 
@@ -54,7 +54,7 @@ ImToken是一个用于管理以太坊货币的数字钱包。[下载地址](http
 
 Nvidia显卡需要安装CUDA，cuda安装教程：[Windows](http://blog.csdn.net/johinieli/article/details/76960112) [Linux](http://blog.csdn.net/autocyz/article/details/52299889)
 
-ETH的挖矿软件有很多，这里给出克莱默原版挖矿地址（google云盘需要科学上网）：[下载地址](https://drive.google.com/drive/folders/0B69wv2iqszefdFZUV2toUG5HdlU)
+ETH的挖矿软件有很多，这里给出克莱默原版挖矿软件地址（google云盘需要科学上网）：[下载地址](https://drive.google.com/drive/folders/0B69wv2iqszefdFZUV2toUG5HdlU)
 
 Windows与Linux的版本都有，下载解压后，进入文件夹，在config文件中修改参数：
 ```
